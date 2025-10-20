@@ -1,7 +1,7 @@
 USAGE (RUN IN TERMINAL):
-.\main.exe
+"python -m main.py"
 
-.\main.exe -h for help
+"python -m main.py -h" for help
 
 Default: Pads + Expands everything in Folder "source" into 1920*1080 
 
@@ -21,4 +21,5 @@ options:
   -p, --proportion PROPORTION
                         Change the proportion from 16:9 to anything else (Format: 16,9)
   -b, --bordermult BORDERMULT
+
                         Change the size of the padded border if using --dynamic option (recommended: 0.05)
